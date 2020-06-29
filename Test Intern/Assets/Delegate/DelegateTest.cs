@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class DelegateTest : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void OnBtnClick()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //gọi delegate
     }
 }
