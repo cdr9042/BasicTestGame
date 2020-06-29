@@ -4,11 +4,16 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-public class TestEvent : MonoBehaviour
+[System.Serializable]
+public class StringEvent : UnityEvent<string>
+{
+}
+
+public class TestEventSolution : MonoBehaviour
 {
     [SerializeField] UnityEvent onClick;
-    [SerializeField] UnityEvent<string> onClickText;
-    InputField inputField;
+    [SerializeField] StringEvent onClickText;
+    [SerializeField] InputField inputField;
 
     //for buttons
     public void OnBtnClick()
@@ -22,7 +27,7 @@ public class TestEvent : MonoBehaviour
     }
 
     //for event
-    public void LogSomething()
+    public void LogBtnClick()
     {
         Debug.Log("Clicked");
     }

@@ -235,7 +235,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 62.700012}
+  m_AnchoredPosition: {x: 0, y: 82}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &395443855
@@ -363,13 +363,38 @@ MonoBehaviour:
   m_GameObject: {fileID: 635145139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1566b138829ad1649980d8560b27ee84, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e0442d02121391459809d2dc31f7bd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   onClick:
     m_PersistentCalls:
-      m_Calls: []
-  inputField: {fileID: 0}
+      m_Calls:
+      - m_Target: {fileID: 635145140}
+        m_MethodName: LogBtnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onClickText:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 635145140}
+        m_MethodName: LogInputField
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  inputField: {fileID: 395443855}
 --- !u!4 &635145141
 Transform:
   m_ObjectHideFlags: 0
@@ -664,7 +689,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -70.59999}
+  m_AnchoredPosition: {x: 0, y: -51.3}
   m_SizeDelta: {x: 232, y: 51.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1117370500
@@ -947,7 +972,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -2}
+  m_AnchoredPosition: {x: 0, y: 17.3}
   m_SizeDelta: {x: 232, y: 51.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1515375785
@@ -1116,10 +1141,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565906155}
-  m_LocalRotation: {x: 0.2334733, y: -0, z: -0, w: 0.9723633}
-  m_LocalPosition: {x: -0.13900086, y: 3.674849, z: -7.2850885}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 13.940001, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
